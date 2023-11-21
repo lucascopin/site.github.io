@@ -1,0 +1,22 @@
+body {
+    font-family: "Helvetica", sans-serif;
+}
+
+@media screen and (max-width: 720px) {
+    .menu{
+        display: none;
+    }
+
+    .menu-mobile{
+        display: flex;
+    }
+}
+@media screen and (min-width: 720px) {
+    .menu-mobile{
+        display: flex;
+    }
+
+    .menu-mobile{
+        display: none;
+    }
+}
