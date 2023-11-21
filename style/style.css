@@ -1,0 +1,101 @@
+@media screen and (max-width: 1050px) { /*Mode mobile*/
+    .menu{
+        display: none;
+    }
+
+    .menu-mobile{
+        display: flex;
+        align-items: center;
+    }
+
+    header h1{
+        font-size: 32px;
+    }
+
+    header{
+        height: 90px;
+    }
+
+    #menu-toggle{
+        border : none;
+        background-color: white;
+        margin: 5px;
+    }
+
+    #user{
+        border : none;
+        background-color: white;
+        position: absolute;
+        right: 20px;
+    }
+}
+@media screen and (min-width: 1050px) { /*Mode ordinateur*/
+
+    .menu{ /*Partie header*/
+        display: flex;
+        align-items: center;
+    }
+
+    .menu-mobile{
+        display: none;
+    }
+
+    header{
+        height: 116px;
+        align-items: center;
+        margin-left: 6%;
+    }
+
+    header #left-part{
+        font-size: 20px;
+    }
+
+    header #links{
+        width: 429px;
+        height: 48px;
+        padding-left: 10%;
+        display: flex;
+        justify-content: space-between;
+        color: #404040CC;
+    }
+
+    header #right-part{
+        display: flex;
+        align-items: center;
+        padding-left: 30%;
+    }
+
+    input{
+        border: none;
+    }
+
+    input[value="Login"]{
+        background-color: white;
+        height: 46px;
+        width: 78px;
+        font-size: 16px;
+        color: #96C67F;
+        margin: 5px;
+    }
+
+    input[value="Register"]{
+        background-color: #96C67F;
+        height: 44px;
+        width: 100px;
+        color: white;
+        margin: 5px;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+
+}
+
+/*Mode Général*/
+
+body {
+    font-family: "Open-Sans", sans-serif;
+}
+
+header h5{
+    color: #404040CC;
+}
