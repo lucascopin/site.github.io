@@ -506,6 +506,92 @@
         width: 384px;
     }
 
+    .footer-mobile{
+        display: none;
+    }
+
+    footer{
+        margin-top: 1700px;
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 1512px;
+        height: 590px;
+        background-color: #000000;
+    }
+
+    .footer{
+        position: absolute;
+        top: 85px;
+        left: 121px;
+        height: 415px;
+        width: 1003px;
+        color:white;
+    }
+
+    .footer h1{
+        margin-top: 5px;
+        font-size: 30px;
+    }
+
+    .footer p{
+        width: 309px;
+        font-size: large;
+    }
+
+    .social-media{
+        display: flex;
+        padding-top: 20px;
+    }
+
+    .social-media > *{
+        padding-right: 30px;
+    }
+
+    table{
+        font-size: small;
+        position: absolute;
+        top: 0px;
+        left: 450px;
+
+    }
+    td{
+        padding-right: 30px;
+        padding-bottom: 15px;
+    }
+
+    form[action="email"]{
+        width: 569px;
+        display: grid;
+        position: absolute;
+        top: 300px;
+        left: 400px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: larger;
+    }
+
+    .form{
+        display: flex;
+        padding-top: 30px;
+    }
+    
+
+    input[type="email"]{
+        width: 569px;
+        height: 52px;
+    }
+
+    input[type="submit"]{
+        width: 132px;
+        border: none;
+        background-color: #96C67F;
+        color: white;
+        font-size: large;
+        margin-left: -1px;
+    }
+
 }
 
 /*Mode Général*/
