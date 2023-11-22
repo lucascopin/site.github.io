@@ -393,7 +393,7 @@
         border-radius: 5%;
     }
 
-    .text{
+    #div3 .text{
         width: 518px;
         background-color: white;
         border-radius: 15px;
@@ -401,12 +401,109 @@
         transform: translate(120%,-210%);
     }
 
-    .text h1{
+    #div3 .text h1{
         font-size: 40px;
     }
 
-    .text h5{
+    #div3 .text h5{
         font-size: 20px;
+    }
+
+    #div4{
+        height: 392px;
+        width: 1512px;
+        margin-top: 50px;
+        display: flex;
+    }
+
+    #div4 .text{
+        width: 318px;
+        font-size: 25px;
+        line-height: 70px;
+        text-align: left;
+    }
+
+    .arrow{
+        padding-top: 40px;
+    }
+
+    .arrow img{
+        padding-right: 50px;
+    }
+
+    .right-part{
+        display: inline;
+        width: 984px;
+        height: 352px;
+        padding-left: 150px;
+        padding-top: 30px;
+    }
+
+    .rectangle4{
+        width: 480px;
+        height: 352px;
+        background-color: #F8F8F8;
+        border-radius: 15px;
+        position: relative;
+    }
+
+    .pad1 img{
+        position: absolute;
+        transform: translate(60%,80%);
+    }
+
+    .pad1 h2{
+        position: absolute;
+        transform: translate(95%,150%);
+    }
+
+    .pad1 h3{
+        position: absolute;
+        transform: translate(90%,350%);
+        color:#96C67F;
+    }
+
+    .pad1 p{
+        position: absolute;
+        transform: translate(9%,200%);
+        width: 384px;
+    }
+
+    .pad2{
+        width: 984px;
+        height: 352px;
+        position: absolute;
+        transform: translate(490px,-353px);
+    }
+
+    .rectangle5{
+        width: 480px;
+        height: 352px;
+        background-color: #F8F8F8;
+        border-radius: 15px;
+        position: absolute;
+    }
+
+    .pad2 img{
+        position: absolute;
+        transform: translate(60%,80%);
+    }
+
+    .pad2 h2{
+        position: absolute;
+        transform: translate(115%,150%);
+    }
+
+    .pad2 h3{
+        position: absolute;
+        transform: translate(120%,350%);
+        color:#96C67F;
+    }
+
+    .pad2 p{
+        position: absolute;
+        transform: translate(9%,200%);
+        width: 384px;
     }
 
 }
