@@ -9,4 +9,4 @@ Cette première partie à sucité plus de placement précis, j'ai donc fais appe
 
 Pour la deuxième partie de l'affichage sur ordinateur le principe reste le même mais pour le placement de chaque cases j'ai privilégié le margin.
 
-J'ai respecté les mêmes méthodes pour la troisième et quatrième partie.
+J'ai respecté les mêmes méthodes pour le reste du site, que ce soit la version Ordinateur ou mobile.
