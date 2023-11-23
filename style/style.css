@@ -68,7 +68,7 @@
             transform: translate(3400%, -240%);
         }
 
-    #div1{
+    #div1{          /*Partie scroll*/
         margin-top: -47px;
         height: 523px;
         width: 100%;
@@ -190,7 +190,6 @@
         height: 413px;
         width: 1272px;
         margin-top: 50px;
-        overflow-x: scroll;
     }
 
         .part1{
@@ -293,6 +292,49 @@
         .part4 p{
             padding-left: 30px;
             padding-right: 30px;
+        }
+
+    #div3{ 
+        width: 100%;
+        margin-top: 100px;
+    }
+
+        .rectangle3{
+            width: 490px;
+            height: 630px;
+            background-color: #96C67F;
+            border-radius: 15px;
+            position: relative;
+            margin-left: 30px;
+        }
+
+        img[alt="image2"]{
+            position: absolute;
+            transform: translate(-3%,-110%);
+            height: 360px;
+        }
+        
+        img[alt="image3"]{
+            position: absolute;
+            transform: translate(55%,-150%);
+            border-radius: 5%;
+            }
+        #div3 .text{
+            width: 518px;
+            background-color: white;
+            border-radius: 15px;
+            position: relative;
+            margin-left: 30px;
+        }
+
+        #div3 .text h1{
+            font-size: 40px;
+            margin-top: 50px;
+        }
+
+        #div3 .text h5{
+            font-size: 20px;
+            font-weight: normal;
         }
 }
 @media screen and (min-width: 1050px) { /*Mode ordinateur*/
