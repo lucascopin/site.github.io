@@ -26,7 +26,22 @@
             </div>
         </div>
         <div class="menu-mobile">
-            <button id="menu-toggle"><img src="image/menu.svg" alt="menu"></i></button>
+            <button id="menu-button"><img src="image/menu.svg" alt="menu"></i></button>
+            <div id="menu-container">
+                <div class ="search"><img src="image/search2.png" alt="search"></div>
+                <ul>
+                    <p>Home</p>
+                    <p>Courses</p>
+                    <p>Instructors</p>
+                    <p>Contact</p>
+                </ul>
+              </div>
+                  <script>
+        document.getElementById('menu-button').addEventListener('click', function() {
+          var menuContainer = document.getElementById('menu-container');
+          menuContainer.style.display = (menuContainer.style.display === 'block') ? 'none' : 'block';
+        });
+      </script>
             <div class="circle1"></div>
             <div class="circle2"></div>
             <h1>Lorem ipsum</h1>
@@ -255,7 +270,7 @@
               <form action="email" method="POST">
                 <label for="email"><strong>Subscribe to get latest updates</strong></label>
                 <div class="form">
-                <input type="email" id="email" name="email" required>
+                <input type="email" id="email" name="email" placeholder="Your Email address">
                 <input type="submit" value="Subscribe">
                 </div>
               </form>
