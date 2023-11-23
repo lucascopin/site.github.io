@@ -37,7 +37,7 @@
             height: 90px;
         }
 
-        #menu-toggle{
+        #menu-button{
             border : none;
             background-color: white;
             margin: 5px;
@@ -554,25 +554,6 @@
             border: none;
         }
 
-        input[value="Login"]{
-            background-color: white;
-            height: 46px;
-            width: 78px;
-            font-size: 16px;
-            color: #96C67F;
-            margin: 5px;
-        }
-
-        input[value="Register"]{
-            background-color: #96C67F;
-            height: 44px;
-            width: 100px;
-            color: white;
-            margin: 5px;
-            font-size: 16px;
-            border-radius: 5px;
-        }
-
         .scroll{              /*Partie scroll*/
             height: 523px;
             width: 1272px;
@@ -1043,4 +1024,64 @@ body {
 
 header h5{
     color: #404040CC;
+}
+
+input::placeholder{
+    color: #96C67F;
+}
+
+#menu-container {
+    display: block;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    width: 75%;
+    height: 500px;
+  }
+
+#menu-container ul{
+    color: #404040CC;
+    position: absolute;
+    left: -17px;
+
+}
+
+#menu-container ul > *{
+    padding-top: 20px;
+}
+
+#menu-container img{
+    margin-left: 90%;
+    margin-top: 5px;
+}
+
+.search{
+    background-color: #F8F8F8;
+    width: 90%;
+    height: 35px;
+    margin-left: 10px;
+    display: block;
+    align-items: end;
+    border-radius: 5px;
+}
+
+input[value="Login"]{
+    background-color: white;
+    height: 46px;
+    width: 78px;
+    font-size: 16px;
+    color: #96C67F;
+    margin: 5px;
+}
+
+input[value="Register"]{
+    background-color: #96C67F;
+    height: 44px;
+    width: 100px;
+    color: white;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 5px;
 }
