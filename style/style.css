@@ -1031,7 +1031,7 @@ input::placeholder{
 }
 
 #menu-container {
-    display: block;
+    display: none;
     position: absolute;
     top: 80px;
     left: 0px;
